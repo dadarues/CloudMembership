@@ -1,0 +1,22 @@
+{
+  "name": "shoppingservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy --stage=dev --aws-profile default",
+    "local": "sls offline --noAuth --noPrependStageInUrl --reloadHandler --aws-profile default"
+  },
+  "keywords": [],
+  "author": "DRUIZ",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^3.28.1",
+    "serverless-offline": "^12.0.4",
+    "serverless-prune-plugin": "^2.0.2"
+  },
+  "dependencies": {
+    "uid": "^2.0.1"
+  }
+}

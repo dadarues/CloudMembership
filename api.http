@@ -1,0 +1,31 @@
+GET http://127.0.0.1:4002/shopping
+
+###
+POST https://6sjd8fcem8.execute-api.us-east-1.amazonaws.com/dev/shopping
+Content-Type: application/json 
+
+{
+    "membershipPlan": "Bronze",
+    "value": 10,
+    "status": "APPROVED",
+    "buyer": {
+        "name": "Pablo Bejarano",
+        "nid": "12312344567",
+        "email": "pablo.bejarano@email.com"
+    }
+}
+
+###
+POST http://127.0.0.1:4002/shopping
+Content-Type: application/json 
+
+{
+    "membershipPlan": "Bronze",
+    "value": 10,
+    "status": "APPROVED",
+    "buyer": {
+        "name": "Pablo Bejarano",
+        "nid": "12312344567",
+        "email": "pablo.bejarano@email.com"
+    }
+}

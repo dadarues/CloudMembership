@@ -1,0 +1,7 @@
+/node_modules
+/.serverless
+.idea
+/coverage
+.aws-local-credentials
+.aws-state-machine-definition
+.DS_Store
